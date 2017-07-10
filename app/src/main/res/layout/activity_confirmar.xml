@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luisb.formulariointents.ConfirmarActivity"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/title"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/lineaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_text"
+        android:layout_marginBottom="@dimen/margin_text">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_"
+            android:textSize="@dimen/text"
+            android:layout_marginEnd="@dimen/margen_data"/>
+
+        <TextView
+            android:id="@+id/tvNameData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineanace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_text"
+        android:layout_marginBottom="@dimen/margin_text">
+
+        <TextView
+            android:id="@+id/tvNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nace_"
+            android:textSize="@dimen/text"
+            android:layout_marginEnd="@dimen/margen_data"/>
+
+        <TextView
+            android:id="@+id/tvNaceData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineaTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_text"
+        android:layout_marginBottom="@dimen/margin_text">
+
+        <TextView
+            android:id="@+id/tvTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel_"
+            android:textSize="@dimen/text"
+            android:layout_marginEnd="@dimen/margen_data" />
+
+        <TextView
+            android:id="@+id/tvTelData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineaEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_text"
+        android:layout_marginBottom="@dimen/margin_text">
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_"
+            android:textSize="@dimen/text"
+            android:layout_marginEnd="@dimen/margen_data"/>
+
+        <TextView
+            android:id="@+id/tvEmailData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lineaDescript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_text"
+        android:layout_marginBottom="@dimen/margin_text">
+
+        <TextView
+            android:id="@+id/tvDescript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descript_"
+            android:textSize="@dimen/text"
+            android:layout_marginEnd="@dimen/margen_data"/>
+
+        <TextView
+            android:id="@+id/tvDescriptData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/text"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lineaBoton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/atras"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/edit_data" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

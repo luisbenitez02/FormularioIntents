@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FormularioIntents</string>
+    <string name="name">Nombre</string>
+    <string name="nace">Fecha de nacimiento</string>
+    <string name="phone">Telefono</string>
+    <string name="email">Email</string>
+    <string name="descript">Descripción del contacto</string>
+    <string name="button_text">Siguiente</string>
+    <string name="title">Confirmar Datos</string>
+    <string name="name_">Nombre:</string>
+    <string name="nace_">Fecha Nacimiento:</string>
+    <string name="tel_">Telefono:</string>
+    <string name="email_">Email:</string>
+    <string name="descript_">Descripción:</string>
+    <string name="edit_data">Editar Datos</string>
+
+    <!--Estas varaibles las usarameos para los intents-->
+    <string name="pName">nombre</string>
+    <string name="pNace">nacimiento</string>
+    <string name="pPhone">telefono</string>
+    <string name="pEmail">email</string>
+    <string name="pDescript">descript</string>
+
+    <!--Descripcion imagen-->
+    <string name="icon">Icono de calendario</string>
+</resources>
